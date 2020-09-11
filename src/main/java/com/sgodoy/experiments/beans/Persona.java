@@ -1,6 +1,10 @@
 package com.sgodoy.experiments.beans;
 
-public class Persona {
+import java.io.Serializable;
+
+public class Persona implements Serializable{
+	private static final long serialVersionUID = 6018204459871938023L;
+	
 	private int idPersona;
 	private String nombrePersona;
 	private String apellidoPaterno;
